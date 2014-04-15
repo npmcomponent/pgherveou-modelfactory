@@ -1,35 +1,11 @@
 {
-  "name": "modelfactory",
+  "name": "pgherveou-modelfactory",
+  "description": "simple model data model inspired by mongoose",
   "version": "0.1.30",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/pgherveou/modelfactory.git"
-  },
-  "dependencies": {
-    "emitter": "http://github.com/component/emitter/archive/1.0.1.tar.gz",
-    "modelarray": "0.x"
-  },
-
   "main": "lib/index.js",
-
-  "scripts": {
-    "test": "make test"
+  "dependencies": {
+    "component-emitter": "git://github.com/npmcomponent/component-emitter.git",
+    "pgherveou-modelarray": "git://github.com/npmcomponent/pgherveou-modelarray.git"
   },
-
-  "devDependencies": {
-    "mocha": "*",
-    "chai": "*",
-    "express": "3.x",
-    "mocha-cloud": "*",
-    "grunt": "*",
-    "grunt-shell": "*",
-    "grunt-contrib-jshint": "*",
-    "grunt-contrib-uglify": "*",
-    "grunt-contrib-watch": "*",
-    "grunt-contrib-connect": "*",
-    "grunt-contrib-clean": "*"
-  },
-  "peerDependencies": {
-    "grunt": "~0.4.1"
-  }
+  "license": "MIT"
 }
